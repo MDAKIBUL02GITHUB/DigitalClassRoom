@@ -1,0 +1,122 @@
+@media only screen and (max-width:1500px){
+    h1 {
+        font-size: 5rem;
+      }
+}
+@media only screen and (max-width:1400px){
+    h2{
+        font-size:4rem;
+    }
+    .teaching{
+        width:90%;
+    }
+    .teaching img{
+        width:100%;
+    }
+    .communication-img-2 img {
+        right: -4rem;
+    }
+}
+@media only screen and (max-width:1200px){
+    section{
+        padding:5rem 0rem;
+    }
+    .head-content p{
+        text-align: justify;
+    }
+}
+@media only screen and (max-width:992px){
+    #home-section {
+        padding: 1rem 0rem;
+      }
+    section{
+        padding:4rem 0rem;
+    }
+    h1{
+        font-size:4rem;
+        line-height:4.5rem;
+    }
+    h2{
+        font-size:3.5rem;
+    }
+    h3{
+        font-size:3rem;
+    }
+    p{
+        font-size:1.8rem;
+    }
+    .btn{
+        font-size:1.8rem;
+    }
+    #learn-section .span_1_of_3{
+        width:100% !important;
+    }
+    .learn-box .span_1_of_3:nth-child(2){
+        margin-top:2rem !important;
+        margin-bottom:2rem !important;
+    }
+    .learn-box .span_1_of_3:nth-child(2),.learn-box .span_1_of_3:nth-child(3){
+        margin-left:0 !important;
+    }
+    .btn {
+        font-size: 1.6rem;
+        padding: 1.2rem 1rem;
+        width: 16rem;
+      }
+      #user-section img {
+        width: 100%;
+        margin-top: 13rem;
+      }
+}
+@media only screen and (max-width:768px){
+    #home-section .span_1_of_2{
+        width:100% !important;
+    }
+    .home_img{
+        display: none;
+    }
+    h2 {
+        line-height: 4rem;
+        margin-bottom:3rem;
+      }
+      .teaching {
+        display: none;
+      }
+    #teaching-section .span_1_of_2{
+        width:100% !important;
+    }
+    #teaching-section {
+        padding-top: 0rem !important;
+      }
+    #communication-section .span_1_of_2{
+        width:100% !important;
+    }
+    .d-none{
+        display:none;
+    }
+    #user-section{
+        padding-top:0rem !important;
+    }
+    #user-section .span_1_of_2{
+        width:100% !important;
+    }
+    h4 {
+        font-size: 2.5rem;
+      }
+}
+@media only screen and (max-width:768px){
+    h1 {
+        font-size: 3rem;
+        line-height: 4.2rem;
+      }
+      h2 {
+        font-size: 3rem;
+      }
+      h3 {
+        line-height: 4rem;
+      }
+      h4 {
+        font-size: 2.5rem;
+        line-height: 3.2rem;
+      }
+}

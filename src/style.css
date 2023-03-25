@@ -1,0 +1,147 @@
+/* ========== ADD GRID CSS ============ */
+.section{clear:both;padding:0;margin:0}.row:after,.row:before{content:"";display:table}.row:after{clear:both}.row{zoom:1}.col{display:block;float:left;margin:1% 0 1% 1.6%}.col:first-child{margin-left:0}@media only screen and (max-width:480px){.col{margin:1% 0 1% 0}}.span_2_of_2{width:100%}.span_1_of_2{width:49.2%}@media only screen and (max-width:480px){.span_2_of_2{width:100%}.span_1_of_2{width:100%}}.span_3_of_3{width:100%}.span_2_of_3{width:66.13%}.span_1_of_3{width:32.26%}@media only screen and (max-width:480px){.span_3_of_3{width:100%}.span_2_of_3{width:100%}.span_1_of_3{width:100%}}
+/* ========= ADD LINK FONTS================= */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* ===========BASIC SETUP========= */
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+html{
+    font-size:62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    line-height:2.4rem;
+}
+ul li{
+    list-style-type:none;
+}
+
+h1{
+    font-size:4.3rem;
+    line-height:5.5rem;
+}
+p{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.row{
+    max-width:160rem;
+    margin:auto;
+    padding:3rem;
+}
+section{
+    padding:8rem 0rem;
+}
+/* ======START HOME SECTION ========= */
+#home-section{
+    background:#fafbff;
+    padding:8rem 0rem;
+}
+.classroom{
+    margin-top:3rem;
+}
+.vartical_line{
+    width:5px;
+    background:#fc3434;
+    margin-right:1rem;
+}
+.d-flex{
+    display:flex;
+}
+h1{
+   font-size:6rem;
+   width:90%;
+   line-height:7.5rem;
+}
+.head-content {
+    margin-top:1.5rem;
+}
+.btn{
+    display: block;
+    text-decoration: none;
+    font-size:2rem;
+    background:#fc3434;
+    color:#fff;
+    padding:1.5rem 1rem;
+    width:20rem;
+    text-align: center;
+    font-weight:bold;
+    transition-timing-function: ease-in-out .3s;
+    margin-top:2.5rem;
+    margin-bottom:2rem;
+}
+.btn:hover{
+    background:#405bf9;
+}
+.home_img img{
+    width:100%;
+} 
+/*======START LEARN ABOUT OUR CLASSROOM====== */
+
+h2{
+    font-size:5rem;
+    text-align: center;
+    margin: auto;
+    margin-top:1rem;
+    margin-bottom:9rem;
+}
+.box{
+    background:#edf5f8;
+    border-radius:1rem;
+    padding:3rem;
+}
+.learn-yellow{
+    background:#fff4d6 !important;
+}
+.box-img i{
+    font-size:7rem;
+}
+.box h3{
+    font-size:3rem;
+    margin:2rem 0;
+    text-align: left;
+}
+.text-justify{
+    text-align: justify;
+}
+
+/* ===========START TEACHING SECTION ======== */
+#teaching-section{
+    padding-bottom:0 !important;
+}
+h3{
+    font-size:4rem;
+    text-align: center;
+    margin-bottom:3.5rem;
+}
+/* ==========COMMUNICATION SECTION========== */
+.communication-img{
+    position: relative;
+}
+.communication-img-2 img{
+    position: absolute;
+    right:0rem;
+}
+/* ========SATRT FOOTER SECTION========= */
+footer{
+    background:black;
+    padding:3rem 0;
+}
+h4{
+    color:#fff;
+    text-align: center;
+    font-size:3rem;
+    margin-bottom:1rem;
+}
+footer p{
+    color:#fff;
+    text-align: center;
+    font-size:1.6rem;
+}
